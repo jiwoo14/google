@@ -1,0 +1,88 @@
+div.top_nav {
+    text-align: right;
+    margin: 15px 20px 0 0;
+    padding-right: 10px;
+
+}
+div.top_nav > p {
+    display: inline;
+}
+div.container > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    margin-bottom: 40px;
+    margin-top: 170px;
+}
+div.search-box {
+    box-sizing: content-box;
+    display: inline;
+    position: relative;
+    width: 40%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: lightgrey;
+    border-radius: 50px;
+    height: 45px;
+    padding: 0;
+    background-color: lightgrey;
+    white-space: nowrap;
+}
+div.search-box > input.sb1 {
+    margin-bottom: 40px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 50px;
+    height: 45px;
+    width: 500px;
+}
+div > button {
+    margin-bottom: 40px;
+    padding: 0;
+    border: none;
+    background-color: lightgrey;
+    position: relative;
+    border-radius: 50px;
+}
+div.search-box > button >img.sb2 {
+    width: 45px;
+    height: 45px;
+    border: none;
+    padding: 0;
+    border-radius: 8px;
+}
+div.wrapper > div.col > div.row {
+    margin: 10px auto;
+}
+div.wrapper > div.col > div.row > div.box {
+    border: none;
+    background-color: lightgrey;
+    border-collapse: separate;
+    border-spacing: 30px;
+    border-radius: 100%;
+    margin: 10px 20px;
+    width: 45px;
+    height: 45px;
+}
+div.wrapper > div.col > div.row > div.box > img.size {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+div.wrapper > div.col > div.row > div.box-t {
+    text-align: center;
+    vert-align: middle;
+    font-size: 25px;
+     border: none;
+    background-color: lightgrey;
+    border-collapse: separate;
+    border-spacing: 30px;
+    border-radius: 100%;
+    margin: 10px 20px;
+    width: 45px;
+    height: 45px;
+}
