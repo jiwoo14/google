@@ -1,44 +1,72 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Google</title>
-        <link href="./css/style.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="top_nav"> <!--상단바-->
-            <p>Gmail</p>
-            <p>이미지</p>
-            <p>menu</p>
-            <p>user</p>
-        </div>
-
-        <div class="container"> <!--로고-->
-            <img src="./img/google.png" alt="logo">
-        </div>
-
-        <div class="search-box"> <!--검색창-->
-            <input type="search" placeholder="&nbsp&nbsp&nbsp&nbsp Google 검색 또는 URL 입력" class="sb1">
-            <button><img src="./img/fuck.png" alt="search-icon" class="sb2"></button>
-        </div>
-
-       <div class="wrapper"> <!--자주 가는 사이트-->
-           <div class="col">
-               <div class="row">
-                   <div class="box"><img src="./img/likelion7_logo.png" alt="likelion" class="size"></div>
-                   <div class="box"><img src="./img/classlion.png" alt="classlion" class="size"></div>
-                   <div class="box"><img src="./img/codecademy.png" alt="codecademy" class="size"></div>
-                   <div class="box"><img src="./img/konkuk.png" alt="konkukuniv" class="size"></div>
-                    <div class="box"><img src="./img/pixabay.png" alt="pixabay" class="size"></div>
-               </div>
-               <div class="row">
-                   <div class="box"><img src="./img/artandculture.jpg" alt="art" class="size"></div>
-                   <div class="box"><img src="./img/gmail.png" alt="gmail" class="size"></div>
-                   <div class="box"><img src="./img/netflix.jpg" alt="netflix" class="size"></div>
-                   <div class="box"><img src="./img/ted.jpg" alt="ted" class="size"></div>
-                   <div class="box-t">+</div>
-               </div>
-           </div>
-    </body>
-</html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Google</title>
+            <link rel="stylesheet" href="./css/style.css" type="text/css">
+        </head>
+        <body>
+            <div class="top_nav"> <!--상단바-->
+                <p class="line">Gmail</p>
+                <p class="line">이미지</p>
+                <img class="line" src="./img/menu.png" alt="menu">
+                <p class="line" id="top_c">지우</p>
+            </div>
+            <div class="logo"> <!--로고-->
+                <img src="./img/glogo.png" alt="logo">
+            </div>
+            <div class="search-box"> <!--검색창-->
+                <input class="search" type="search" placeholder="&nbsp &nbsp &nbsp Google 검색 또는 URL 입력">
+                <img src="./img/fuck.png" alt="search-icon">
+            </div>
+            <div> <!--자주 방문하는 사이트-->
+                <div class="col"> <!--첫 번째 줄-->
+                    <button id="site">
+                        <img src="./img/likelion7_logo.png" alt="건대 멋사 7기">
+                        <p>건대 멋사 7기</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/likelionc.png" alt="클래스 라이온">
+                        <p>라이온 클래스</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/cd.png" alt="codecademy">
+                        <p>Dash Board</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/konkuk.png" alt="건국대학교">
+                        <p>건국대학교</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/pixabay.png" alt="Pixabay">
+                        <p>Pixabay</p>
+                    </button>
+                </div>
+                <div class="col"> <!--두 번째 줄-->
+                    <button id="site">
+                        <img src="./img/gmilc.png" alt="gmamil">
+                        <p>Gmail</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/artandculture.jpg" alt="google art & culture">
+                        <p>Google...</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/netflix.jpg" alt="netflix">
+                        <p>Netflix</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/ted.jpg" alt="ted">
+                        <p>TED</p>
+                    </button>
+                    <button id="site">
+                        <img src="./img/plus.png" alt="plus">
+                         <p>바로가기 추가</p>
+                    </button>
+                </div>
+            </div>
+            <div> <!--설정 아이콘-->
+                <img class="setting" src="./img/setting.png" alt="setting">
+            </div>
+        </body>
+    </html>
